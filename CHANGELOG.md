@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.75.2
+* Update ZXingCpp
+
 ## 1.75.1
 * Update ZXingCpp
 * Keep KDE Connect device picker visible
