@@ -475,6 +475,7 @@ class DecodeActivity : AbstractBaseActivity() {
 			if (text.isNullOrBlank()) {
 				continue
 			}
+			val link = item.link
 
 			val rowView = LinearLayout(ctx).apply {
 				orientation = LinearLayout.VERTICAL
@@ -486,10 +487,22 @@ class DecodeActivity : AbstractBaseActivity() {
 				}
 				setBackgroundResource(R.drawable.list_selector)
 				setOnClickListener {
-					item.link?.let {
-						openUrl(it)
+					if (link == null) {
+						copyToClipboard(text.toString())
+					} else {
+						MaterialAlertDialogBuilder(ctx)
+							.setItems(arrayOf(
+								getString(R.string.copy_to_clipboard),
+								getString(R.string.open_url)
+							)) { _, which ->
+								if (which == 0) {
+									copyToClipboard(text.toString())
+								} else {
+									openUrl(link)
+								}
+							}
+							.show()
 					}
-					copyToClipboard(text.toString())
 				}
 			}
 
@@ -524,15 +537,6 @@ class DecodeActivity : AbstractBaseActivity() {
 					)
 				)
 				this.text = text
-				if (item.link != null) {
-					setCompoundDrawablesWithIntrinsicBounds(
-						0,
-						0,
-						R.drawable.ic_action_open,
-						0
-					)
-					compoundDrawablePadding = spaceBetween / 2
-				}
 			}
 
 			val alpha = if (dimmed) 0.5f else 1f
