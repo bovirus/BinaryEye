@@ -73,7 +73,10 @@ fun parseData(
 		// Ignore
 	}
 
-	IdlParser.parse(String(bytes))?.let {
+	IdlParser.parse(String(bytes))?.takeIf {
+		// Prevents other data from being interpreted as IDL.
+		it.elements.size > 2
+	}?.let {
 		fields.addField("IIN", it.iin)
 		it.elements.forEach { (id, value) ->
 			fields.addField(context.idlToRes(id), value)
