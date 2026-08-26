@@ -442,4 +442,5 @@
 	<string name="appearance_category">Izskats</string>
 	<string name="dynamic_colors">Dinamiskas krāsas</string>
 	<string name="dynamic_colors_summary">Izmantot sistēmas krāsas lietotnes motīvam. Nepieciešams Android 12 vai jaunāks.</string>
+	<string name="automated_action_list_format">%1$s (%2$s)</string>
 </resources>

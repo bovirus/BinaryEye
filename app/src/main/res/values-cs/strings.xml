@@ -447,4 +447,5 @@
 	<string name="appearance_category">Vzhled</string>
 	<string name="dynamic_colors">Dynamické barvy</string>
 	<string name="dynamic_colors_summary">Používat systémové barvy pro motiv aplikace. Vyžaduje Android 12 nebo novější.</string>
+	<string name="automated_action_list_format">%1$s (%2$s)</string>
 </resources>

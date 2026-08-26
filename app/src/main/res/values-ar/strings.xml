@@ -457,4 +457,5 @@
 	<string name="appearance_category">المظهر</string>
 	<string name="dynamic_colors">الألوان الديناميكية</string>
 	<string name="dynamic_colors_summary">استخدام ألوان النظام لسمة التطبيق. يتطلب Android 12 أو أحدث.</string>
+	<string name="automated_action_list_format">%1$s (%2$s)</string>
 </resources>

@@ -282,7 +282,11 @@ class AutomatedActionsActivity : AbstractBaseActivity() {
 						}
 				}
 				action.format?.let { format ->
-					subtitle.text = "${subtitle.text} (${format.prettifyFormatName()})"
+					subtitle.text = context.getString(
+						R.string.automated_action_list_format,
+						subtitle.text,
+						format.prettifyFormatName()
+					)
 				}
 			}
 			return view

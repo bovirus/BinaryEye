@@ -435,4 +435,5 @@
 	<string name="appearance_category">外观</string>
 	<string name="dynamic_colors">动态颜色</string>
 	<string name="dynamic_colors_summary">使用系统颜色作为应用主题。需要 Android 12 或更高版本。</string>
+	<string name="automated_action_list_format">%1$s (%2$s)</string>
 </resources>
