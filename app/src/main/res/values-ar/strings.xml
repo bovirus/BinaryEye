@@ -86,6 +86,14 @@
 	<string name="two_seconds">ثانيتان</string>
 	<string name="five_seconds">خمس ثوانٍ</string>
 	<string name="history">التاريخ</string>
+	<plurals name="scan_count">
+		<item quantity="zero">%d عمليات مسح</item>
+		<item quantity="one">%d عملية مسح</item>
+		<item quantity="two">%d عمليتا مسح</item>
+		<item quantity="few">%d عمليات مسح</item>
+		<item quantity="many">%d عملية مسح</item>
+		<item quantity="other">%d عملية مسح</item>
+	</plurals>
 	<string name="preferences">الإعدادات</string>
 	<string name="scan_category">المسح</string>
 	<string name="content_category">المحتوى</string>

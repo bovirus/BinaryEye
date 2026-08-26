@@ -278,6 +278,11 @@ class HistoryActivity : AbstractBaseActivity() {
 			val cursor = db.getScans(filter)
 			withContext(Dispatchers.Main) {
 				val ac = this@HistoryActivity
+				ac.title = resources.getQuantityString(
+					R.plurals.scan_count,
+					cursor.count,
+					cursor.count
+				)
 				val hasScans = cursor.count > 0
 				if (filter == null) {
 					if (!hasScans) {

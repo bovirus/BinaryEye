@@ -81,6 +81,10 @@
 	<string name="two_seconds">Dua detik</string>
 	<string name="five_seconds">Lima detik</string>
 	<string name="history">Riwayat</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d pemindaian</item>
+		<item quantity="other">%d pemindaian</item>
+	</plurals>
 	<string name="preferences">Preferensi</string>
 	<string name="scan_category">Pemindaian</string>
 	<string name="content_category">Konten</string>

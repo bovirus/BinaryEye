@@ -82,6 +82,10 @@
 	<string name="two_seconds">To sekunder</string>
 	<string name="five_seconds">Fem sekunder</string>
 	<string name="history">Historik</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d scanning</item>
+		<item quantity="other">%d scanninger</item>
+	</plurals>
 	<string name="preferences">Præferencer</string>
 	<string name="scan_category">Scan</string>
 	<string name="content_category">Indhold</string>

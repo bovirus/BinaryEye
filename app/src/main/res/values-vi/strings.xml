@@ -81,6 +81,10 @@
 	<string name="two_seconds">Hai giây</string>
 	<string name="five_seconds">Năm giây</string>
 	<string name="history">Lịch sử</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d lần quét</item>
+		<item quantity="other">%d lần quét</item>
+	</plurals>
 	<string name="preferences">Tuỳ chọn</string>
 	<string name="scan_category">Quét</string>
 	<string name="content_category">Nội dung</string>

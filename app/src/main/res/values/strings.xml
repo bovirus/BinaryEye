@@ -90,6 +90,10 @@
 	<string name="two_seconds">Two seconds</string>
 	<string name="five_seconds">Five seconds</string>
 	<string name="history">History</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d scan</item>
+		<item quantity="other">%d scans</item>
+	</plurals>
 	<string name="preferences">Settings</string>
 	<string name="scan_category">Scan</string>
 	<string name="content_category">Content</string>

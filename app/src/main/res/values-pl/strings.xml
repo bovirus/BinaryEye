@@ -23,6 +23,12 @@
 	<string name="clear_history">Wyczyść historię</string>
 	<string name="compose_barcode">Utwórz kod kreskowy</string>
 	<string name="history">Historia</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d skan</item>
+		<item quantity="few">%d skany</item>
+		<item quantity="many">%d skanów</item>
+		<item quantity="other">%d skanu</item>
+	</plurals>
 	<string name="format">Format</string>
 	<string name="all_formats">Wszystkie formaty</string>
 	<string name="add_to_history">Dodaj do historii</string>

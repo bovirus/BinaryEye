@@ -82,6 +82,10 @@
 	<string name="two_seconds">دو ثانیه</string>
 	<string name="five_seconds">پنج ثانیه</string>
 	<string name="history">تاریخچه</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d اسکن</item>
+		<item quantity="other">%d اسکن</item>
+	</plurals>
 	<string name="preferences">ترجیحات</string>
 	<string name="scan_category">پویش</string>
 	<string name="content_category">محتویات</string>

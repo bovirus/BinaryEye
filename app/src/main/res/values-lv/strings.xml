@@ -11,6 +11,11 @@
 	<string name="format">Formāts</string>
 	<string name="info">Informācija</string>
 	<string name="history">Vēsture</string>
+	<plurals name="scan_count">
+		<item quantity="zero">%d skenējumi</item>
+		<item quantity="one">%d skenējums</item>
+		<item quantity="other">%d skenējumi</item>
+	</plurals>
 	<string name="preferences">Iestatījumi</string>
 	<string name="scan_category">Skenēt</string>
 	<string name="content_category">Saturs</string>

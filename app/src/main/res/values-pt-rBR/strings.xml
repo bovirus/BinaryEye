@@ -82,6 +82,10 @@
 	<string name="two_seconds">Dois segundos</string>
 	<string name="five_seconds">Cinco segundos</string>
 	<string name="history">Histórico</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d leitura</item>
+		<item quantity="other">%d leituras</item>
+	</plurals>
 	<string name="preferences">Configurações</string>
 	<string name="scan_category">Digitalização</string>
 	<string name="content_category">Conteúdo</string>

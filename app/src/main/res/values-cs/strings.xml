@@ -84,6 +84,12 @@
 	<string name="two_seconds">Dvě sekundy</string>
 	<string name="five_seconds">Pět sekund</string>
 	<string name="history">Historie</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d sken</item>
+		<item quantity="few">%d skeny</item>
+		<item quantity="many">%d skenu</item>
+		<item quantity="other">%d skenů</item>
+	</plurals>
 	<string name="preferences">Nastavení</string>
 	<string name="scan_category">Skenování</string>
 	<string name="content_category">Obsah</string>

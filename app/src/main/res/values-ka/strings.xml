@@ -82,6 +82,10 @@
 	<string name="two_seconds">ორი წამი</string>
 	<string name="five_seconds">ხუთი წამი</string>
 	<string name="history">ისტორია</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d სკანირება</item>
+		<item quantity="other">%d სკანირება</item>
+	</plurals>
 	<string name="preferences">პარამეტრები</string>
 	<string name="scan_category">სკანირება</string>
 	<string name="content_category">კონტენტი</string>

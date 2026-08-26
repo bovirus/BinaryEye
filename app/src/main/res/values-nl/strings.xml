@@ -82,6 +82,10 @@
 	<string name="two_seconds">2 seconden</string>
 	<string name="five_seconds">5 seconden</string>
 	<string name="history">Opgeslagen codes</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d scan</item>
+		<item quantity="other">%d scans</item>
+	</plurals>
 	<string name="preferences">Voorkeuren</string>
 	<string name="scan_category">Scannen</string>
 	<string name="content_category">Inhoud</string>

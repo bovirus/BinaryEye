@@ -81,6 +81,10 @@
 	<string name="two_seconds">2秒</string>
 	<string name="five_seconds">5秒</string>
 	<string name="history">履歴</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d 件のスキャン</item>
+		<item quantity="other">%d 件のスキャン</item>
+	</plurals>
 	<string name="preferences">設定</string>
 	<string name="scan_category">スキャン</string>
 	<string name="content_category">コンテンツ</string>

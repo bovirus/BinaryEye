@@ -84,6 +84,12 @@
 	<string name="two_seconds">Дві секунди</string>
 	<string name="five_seconds">П\'ять секунд</string>
 	<string name="history">Історія</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d сканування</item>
+		<item quantity="few">%d сканування</item>
+		<item quantity="many">%d сканувань</item>
+		<item quantity="other">%d сканування</item>
+	</plurals>
 	<string name="preferences">Налаштування</string>
 	<string name="scan_category">Сканування</string>
 	<string name="content_category">Вміст</string>

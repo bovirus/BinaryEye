@@ -82,6 +82,10 @@
 	<string name="two_seconds">İki saniye</string>
 	<string name="five_seconds">Beş saniye</string>
 	<string name="history">Geçmiş</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d tarama</item>
+		<item quantity="other">%d tarama</item>
+	</plurals>
 	<string name="preferences">Tercihler</string>
 	<string name="scan_category">Tarama</string>
 	<string name="content_category">İçerik</string>

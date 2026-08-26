@@ -81,6 +81,10 @@
 	<string name="two_seconds">두 초</string>
 	<string name="five_seconds">다섯 초</string>
 	<string name="history">역사</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d개 스캔</item>
+		<item quantity="other">%d개 스캔</item>
+	</plurals>
 	<string name="preferences">설정</string>
 	<string name="scan_category">스캔</string>
 	<string name="content_category">콘텐츠</string>

@@ -81,6 +81,10 @@
 	<string name="two_seconds">2 秒</string>
 	<string name="five_seconds">5 秒</string>
 	<string name="history">歷史記錄</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d 次掃描</item>
+		<item quantity="other">%d 次掃描</item>
+	</plurals>
 	<string name="preferences">設定</string>
 	<string name="scan_category">掃描</string>
 	<string name="content_category">內容</string>

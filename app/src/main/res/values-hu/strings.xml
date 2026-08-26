@@ -82,6 +82,10 @@
 	<string name="two_seconds">Két másodperc</string>
 	<string name="five_seconds">Öt másodperc</string>
 	<string name="history">Előzmények</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d beolvasás</item>
+		<item quantity="other">%d beolvasás</item>
+	</plurals>
 	<string name="preferences">Beállítások</string>
 	<string name="scan_category">Beolvasás</string>
 	<string name="content_category">Tartalom</string>

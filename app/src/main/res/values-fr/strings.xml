@@ -83,6 +83,10 @@
 	<string name="two_seconds">Deux secondes</string>
 	<string name="five_seconds">Cinq secondes</string>
 	<string name="history">Historique</string>
+	<plurals name="scan_count">
+		<item quantity="one">%d scan</item>
+		<item quantity="other">%d scans</item>
+	</plurals>
 	<string name="preferences">Préférences</string>
 	<string name="scan_category">Numériser</string>
 	<string name="content_category">Contenu</string>
