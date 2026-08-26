@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.75.3
+* Show scan count in history
+* Offer copy and open actions for tracking links
+* Prevent false IDL detection
+* Fix tooltip for saving binary data
+* Update ZXingCpp
+
 ## 1.75.2
 * Update ZXingCpp
 
